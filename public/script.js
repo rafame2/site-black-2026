@@ -65,8 +65,8 @@
     makeDots();
   }
 
-  const start = Date.parse('2026-11-25T03:00:00Z'); // 25/11, 00h em Bras�lia
-  const end = Date.parse('2026-12-01T03:00:00Z'); // ap�s 30/11, 23h59 em Bras�lia
+  const start = Date.parse('2026-11-25T03:00:00Z'); // 25/11, 00h em Brasília
+  const end = Date.parse('2026-12-01T03:00:00Z'); // após 30/11, 23h59 em Brasília
   const status = document.getElementById('offer-status');
   const statusText = status?.querySelector('span:last-child');
   const priceNodes = document.querySelectorAll('[data-price]');
@@ -82,20 +82,20 @@
       status.classList.toggle('is-current', !ended);
       status.classList.toggle('is-ended', ended);
       statusText.textContent = ended
-        ? 'Esta edi��o da Black foi encerrada.'
+        ? 'Esta edição da Black foi encerrada.'
         : later
-          ? 'Condi��o vigente at� 30/11/2026, �s 23h59 (hor�rio de Bras�lia).'
-          : 'Condi��o de agilidade vigente at� 24/11/2026, �s 23h59 (hor�rio de Bras�lia).';
+          ? 'Condição vigente até 30/11/2026, às 23h59 (horário de Brasília).'
+          : 'Condição de agilidade vigente até 24/11/2026, às 23h59 (horário de Brasília).';
     }
     const values = later ? { annual: 'R$ 2.897', lifetime: 'R$ 3.697' } : { annual: 'R$ 2.597', lifetime: 'R$ 3.397' };
     priceNodes.forEach(node => { node.textContent = ended ? 'Oferta encerrada' : values[node.dataset.price]; });
     contextNodes.forEach(node => {
-      node.textContent = ended ? 'Per�odo encerrado em 30/11/2026' : later ? 'At� 30/11/2026, �s 23h59 (Bras�lia)' : 'At� 24/11/2026, �s 23h59 (Bras�lia)';
+      node.textContent = ended ? 'Período encerrado em 30/11/2026' : later ? 'Até 30/11/2026, às 23h59 (Brasília)' : 'Até 24/11/2026, às 23h59 (Brasília)';
     });
-    nextNodes.forEach(node => { node.textContent = ended ? 'A p�gina apresenta as condi��es desta edi��o.' : later ? 'Pre�o vigente at� o encerramento da Black' : `A partir de 25/11: ${node.dataset.next === 'annual' ? 'R$ 2.897' : 'R$ 3.697'}`; });
+    nextNodes.forEach(node => { node.textContent = ended ? 'A página apresenta as condições desta edição.' : later ? 'Preço vigente até o encerramento da Black' : `A partir de 25/11: ${node.dataset.next === 'annual' ? 'R$ 2.897' : 'R$ 3.697'}`; });
     checkoutButtons.forEach(button => {
       button.textContent = ended ? 'Oferta encerrada' : 'Checkout oficial pendente';
-      button.setAttribute('aria-label', ended ? 'Oferta encerrada' : 'Checkout oficial ainda n�o conectado');
+      button.setAttribute('aria-label', ended ? 'Oferta encerrada' : 'Checkout oficial ainda não conectado');
     });
   };
   renderOffer();
