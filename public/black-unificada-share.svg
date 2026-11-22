@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">Black Unificada 2026</title>
-  <desc id="desc">Radiestesia Unificada e Apometria Unificada. Duas forma��es, uma jornada integrada. Egr�gora Unificada.</desc>
+  <desc id="desc">Radiestesia Unificada e Apometria Unificada. Duas formações, uma jornada integrada. Egrégora Unificada.</desc>
   <defs>
     <radialGradient id="glow" cx="78%" cy="48%" r="66%"><stop offset="0" stop-color="#3b3a70" stop-opacity=".82"/><stop offset="1" stop-color="#101022" stop-opacity="0"/></radialGradient>
     <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#ead49a"/><stop offset="1" stop-color="#bd9953"/></linearGradient>
@@ -11,12 +11,12 @@
   <circle cx="922" cy="316" r="118" fill="none" stroke="#ead49a" stroke-opacity=".68" stroke-width="1"/>
   <path d="M922 144 1094 316 922 488 750 316Z" fill="none" stroke="#93a7f0" stroke-opacity=".34"/>
   <circle cx="922" cy="316" r="34" fill="url(#gold)"/><text x="922" y="323" text-anchor="middle" font-family="Georgia,serif" font-size="18" letter-spacing="4" fill="#211d31">EU</text>
-  <text x="92" y="102" font-family="Arial,sans-serif" font-size="14" letter-spacing="5" fill="#ead49a">EGR�GORA UNIFICADA � 2026</text>
+  <text x="92" y="102" font-family="Arial,sans-serif" font-size="14" letter-spacing="5" fill="#ead49a">EGRÉGORA UNIFICADA · 2026</text>
   <text x="92" y="228" font-family="Georgia,serif" font-size="67" fill="#ffffff">Black</text>
   <text x="92" y="305" font-family="Georgia,serif" font-size="67" fill="#ffffff">Unificada</text>
   <text x="95" y="365" font-family="Arial,sans-serif" font-size="21" letter-spacing="1" fill="#c9c6d4">RADIESTESIA + APOMETRIA UNIFICADA</text>
   <line x1="95" y1="405" x2="405" y2="405" stroke="#d7b86c" stroke-opacity=".8"/>
-  <text x="95" y="451" font-family="Georgia,serif" font-size="25" font-style="italic" fill="#ead49a">Duas forma��es. Uma jornada integrada.</text>
-  <text x="95" y="548" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" fill="#b7b4c4">CONHECIMENTO � PR�TICA � CONSCI�NCIA</text>
+  <text x="95" y="451" font-family="Georgia,serif" font-size="25" font-style="italic" fill="#ead49a">Duas formações. Uma jornada integrada.</text>
+  <text x="95" y="548" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" fill="#b7b4c4">CONHECIMENTO · PRÁTICA · CONSCIÊNCIA</text>
 </svg>
 
